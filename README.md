@@ -8,7 +8,7 @@ This is a bash command line program that changes or updates the kernel on a anti
 live-usb. It can work on a running live-usb (primary) or on a secondary live-usb that is plugged in.
 
 ### Quick Start
-    from https://github.com/mxu3/live-kernel-updater  download the master.zip with firefox, or:
+    from  https://mxu3.github.io/live-kernel-updater  download the master.zip with firefox, or:
 
     sudo apt-get update       # if needed
     sudo apt-get install git  # if needed
