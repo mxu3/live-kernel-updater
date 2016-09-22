@@ -5,8 +5,7 @@ test status : no successful kernel change yet performed on updated MX-15
 
 # live-kernel-updater
 This is a bash command line program that changes or updates the kernel on a antiX or MX
-live-usb. It can update a running live-usb or a live-usb that is plugged
-into a host system. 
+live-usb. It can work on a running live-usb (primary) or on a secondary live-usb that is plugged in.
 
 ### Quick Start
     from https://github.com/mxu3/live-kernel-updater  download the master.zip with firefox, or:
@@ -24,12 +23,11 @@ into a host system.
 This program is command line only for the time being.  We try to avoid making your
 live-usb unbootable so you need to install a new kernel and then do a
 remaster before we will attempt to update the live kernel, i.e. deal with initrd asf..  
-We do this by always looking for new kernels inside of the linuxfs file so we
-know for sure it will be available upon next boot.
+We do this by always looking for new kernels inside of the linuxfs file (in /boot) so we
+know it will be available upon next boot.
 
-It can update a running live system or a live-usb that you plug
-into any system.  You will be prompted with choices if you don't
-already specify what you want to do via command line options.
+It can update a running live system or a live-usb that you plugged in, e.g. on a SD-card.
+You will be prompted with choices if you do not already specify what you want to do via command line options.
 
 The log file is at `/var/log/live-kernel-updater.log` 
 
