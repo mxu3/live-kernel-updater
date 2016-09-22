@@ -54,7 +54,7 @@ Commands:
    install     Copy new initrd and vmlinuz to the live boot directory
 
 Options:
-  -a --auto             Non-interactive.  Always assume the safe answer
+  -a --auto             Non-interactive mode, this will always preset the safest option
      --color=<xxx>      Set color scheme to off|low|high
   -D --debug            Pause before cleaning up
   -d --device=<device>  live-usb device to update the kernel on
