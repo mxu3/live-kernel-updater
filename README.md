@@ -3,7 +3,7 @@
 
 
 # live-kernel-updater
-test status : no successful kernel change yet performed on updated MX-15 
+test status : one successful kernel change performed on updated MX-15, running latest liquorix kernel, which is a nice kernel here!
 
 This is a bash command line program that changes or updates the kernel on a antiX or MX
 live-usb. It can work on a running live-usb (primary) or on a secondary live-usb that is plugged in.
