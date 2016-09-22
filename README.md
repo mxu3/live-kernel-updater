@@ -1,10 +1,10 @@
-test status : no successful kernel change yet performed on updated MX-15 
-
-## feel free to edit the MX distro wiki at   
+## feel free to edit the MX distro freedom wiki at   
 ### https://github.com/mxu3/live-kernel-updater/wiki  
 
 
 # live-kernel-updater
+test status : no successful kernel change yet performed on updated MX-15 
+
 This is a bash command line program that changes or updates the kernel on a antiX or MX
 live-usb. It can work on a running live-usb (primary) or on a secondary live-usb that is plugged in.
 
