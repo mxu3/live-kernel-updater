@@ -1,6 +1,6 @@
 test status : no successful kernel change yet performed on updated MX-15 
 
-
+## feel free to edit the MX distro wiki at   https://github.com/mxu3/live-kernel-updater/wiki  
 
 
 # live-kernel-updater
