@@ -90,3 +90,21 @@ Notes:
   - the config file will be sourced if it exists
   - it will be created if it does not exist
 ```
+
+###notes from the original release thread
+http://forum.mepiscommunity.org/viewtopic.php?f=77&t=40423#p390788
+
+If you have previously tested this program then please add the -R (--reset-config) command line option the first time you run this new version. That will cause it to create a new default config file.
+
+Notes:
+
+    You must first install a new kernel and then do a live-remaster or this program will refuse to run
+    
+    It should work on frugal systems now
+    I plan to release a similar program, live-usb-maker, soon
+    I *think* the program is operating correctly
+    I'm interested in feedback about the UI (user interface)
+    I'm interested in feedback about the help/man page
+    I plan to make the beta release after we have it all packaged in .deb files
+    
+
